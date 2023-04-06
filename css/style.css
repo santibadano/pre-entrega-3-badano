@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3e1ed;
+
+}
+.grid-container {
+
+    display: grid;
+    gap: 5px;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 7% 36% 36% 21%
+}
+.grid-container .grid-item1 {
+    grid-column: 1/3;
+}
+
+.grid-container .foto-principal {
+    grid-column: 2/5;
+    grid-column-start: auto;
+}
+
+.grid-container .grid-item3 {
+    color: black;
+    font-family: sans-serif;
+    align-items: center;
+    padding: 20px;
+    grid-column: 2/4;
+    width: 100%;
+    grid-row: 1/3;
+}
+.dropdown-item a {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+    
